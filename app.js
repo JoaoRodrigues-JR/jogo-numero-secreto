@@ -5,7 +5,7 @@ let numeroTentativas = 1;
 
 function mensagemInicial (){
     textoHtml('h1', 'Número Secreto');
-    textoHtml('p', 'Insira um valor de 1 até 1000');
+    textoHtml('p', 'Insira um valor de 1 até 50');
 }
 mensagemInicial ();
 
@@ -45,7 +45,7 @@ function verificarChute(){
 
 function gerarNumeroAleatorio(){
     let 
-    return parseInt(Math.random() * 100 + 1);
+    return parseInt(Math.random() * 50 + 1);
 }
 
 function limparCampo(){
