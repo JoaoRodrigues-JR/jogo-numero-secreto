@@ -45,7 +45,7 @@ function verificarChute(){
 
 function gerarNumeroAleatorio(){
     let 
-    return parseInt(Math.random() * 50 + 1);
+    return parseInt(Math.random() * 60 + 1);
 }
 
 function limparCampo(){
