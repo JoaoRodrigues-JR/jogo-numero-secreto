@@ -1,18 +1,18 @@
 let listaChutesTentados = [];
 let numeroAleatorio = gerarNumeroAleatorio();
-console.log(numeroAleatorio);
 let numeroTentativas = 1;
 
-function mensagemInicial (){
+function mensagemInicial(){
     textoHtml('h1', 'Número Secreto');
     textoHtml('p', 'Insira um valor de 1 até 50');
 }
-mensagemInicial ();
+mensagemInicial();
 
 function textoHtml (tag, texto){
     let titulo = document.querySelector(tag);
     titulo.innerHTML = texto;
 }
+
 function verificarChute(){
     
     let numeroChute = document.querySelector('input').value;
@@ -44,7 +44,6 @@ function verificarChute(){
 }
 
 function gerarNumeroAleatorio(){
-    let 
     return parseInt(Math.random() * 50 + 1);
 }
 
